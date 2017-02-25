@@ -7,6 +7,8 @@
 - 当某个用户请求进入下单流程，其以后的下单请求应该立即返回
 - 抢购请求的数量远远大于秒杀商品库存数量，因此99%请求可以在应用层处理掉
 
+![](demo.jpg)
+
 ## 编译运行
 在druid.properties和redis.properties配置好MySQL和Redis连接方式，并且在MySQL执行table.sql
 >git clone https://github.com/GongDexing/SecondKill.git<br/>
